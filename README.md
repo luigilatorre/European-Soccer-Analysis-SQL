@@ -1,41 +1,95 @@
 # luigilatorre_portfolio
 
-## European Soccer Database Analysis
+# Data Analysis with SQL: European Soccer Database
 
-   ## Introduction
-   This project analyzes the European Soccer Database, a comprehensive collection of soccer-related data. The analysis covers various aspects of European soccer leagues, including team performance, player statistics, and match outcomes.
+## Overview
+This project demonstrates advanced SQL analysis techniques using the European Soccer Database. It explores various soccer statistics across different leagues and seasons, showcasing data manipulation, aggregation, and insight extraction skills.
 
-   ## Dataset Overview
-   The dataset consists of four CSV files:
-   - leagues.csv
-   - match.csv
-   - team.csv
-   - player.csv
+## Dataset
+The analysis is based on the following CSV files:
+- `leagues.csv`
+- `match.csv`
+- `team.csv`
+- `player.csv`
 
-   ## Database Schema
-   !https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#
+## Project Structure
+```
+european-soccer-analysis/
+├── README.md
+├── sql/
+│   ├── setup.sql
+│   ├── days_calculation.sql
+│   ├── home_goals_analysis.sql
+│   ├── seasons_matches_analysis.sql
+│   ├── player_bmi.sql
+│   ├── top_scoring_team.sql
+│   ├── season_top_teams.sql
+│   └── pair_combinations.sql
+└── images/
+    └── schema_diagram.png
+```
 
-   ## SQL Queries
-   This project demonstrates proficiency in SQL through various analytical queries, including:
-   1. Time span analysis of the dataset
-   2. League and season goal statistics
-   3. Match count per season and league
-   4. Player BMI calculation and analysis
-   5. Top-scoring teams identification
+## Tasks and Findings
 
-   ## Insights and Findings
-   Key findings from the analysis include:
-   - The dataset covers 2868 days of soccer matches
-   - The highest-scoring season-league combination was the 2009/2010 England Premier League with 645 total goals
-   - FC Barcelona scored the most goals (112) in the 2015/2016 season
+### 1. Dataset Setup
+- **Objective**: Create a dataset in Google BigQuery and load the CSV files as separate tables.
+- **File**: `sql/setup.sql`
 
-   ## Conclusion
-   This project showcases skills in SQL querying, data analysis, and deriving insights from datasets.
+### 2. Schema Design
+- **Objective**: Design a schema representing relationships between tables.
+- **Visualization**: ![Schema Diagram]([images/schema_diagram.png](https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#))
+- **Details**: Includes Primary keys (PK), Foreign keys (FK), and table dimensions.
 
-   ## Tools Used
-   - Google BigQuery
-   - SQL
-   - Lucidchart (for database schema visualization)
+### 3. Data Analysis
 
-   For detailed queries and results, please refer to the SQL files in this repository.
+#### Task 3: Time Span Analysis
+- **Objective**: Calculate the number of days between the oldest and most recent match.
+- **File**: `sql/days_calculation.sql`
+- **Result**: 2868 days
+
+#### Task 4: Home Goals Analysis
+- **Objective**: Analyze home goals per season and league.
+- **File**: `sql/home_goals_analysis.sql`
+- **Key Finding**: England Premier League 2009/2010 had the highest total with 645 goals.
+
+#### Task 5: Seasons and Matches Analysis
+- **Objective**: Identify unique seasons and analyze match counts per league.
+- **File**: `sql/seasons_matches_analysis.sql`
+- **Observation**: Inconsistency detected in the Belgium Jupiler League 2013/2014 with only 12 matches.
+
+#### Task 6: Player BMI Analysis
+- **Objective**: Create a new table for player BMI analysis.
+- **File**: `sql/player_bmi.sql`
+- **Findings**:
+  - Optimal BMI Count: 10,197 players
+  - Non-Optimal BMI Count: 863 players
+
+#### Task 8: Top Scoring Team
+- **Objective**: Identify the top-scoring team in the most recent season.
+- **File**: `sql/top_scoring_team.sql`
+- **Result**: FC Barcelona with 112 goals in 2015/2016.
+
+#### Task 9: Season Top Teams
+- **Objective**: Rank teams by total goals per season.
+- **File**: `sql/season_top_teams.sql`
+- **Top Performer**: Real Madrid FC with 121 goals in 2011/2012.
+
+#### Task 10: Team Pair Combinations
+- **Objective**: Generate pair combinations of top 10 teams.
+- **File**: `sql/pair_combinations.sql`
+- **Result**: 45 unique combinations.
+
+## Conclusion
+This project demonstrates proficiency in SQL for sports data analysis. It showcases the ability to extract meaningful insights from a complex soccer database, revealing trends in team performance, player health statistics, and league dynamics.
+
+## Future Work
+Potential extensions for this project include:
+- Incorporating machine learning models for match outcome prediction.
+- Visualizing data trends using tools like Tableau or Power BI.
+- Expanding the analysis to include player performance metrics and team strategies.
+
+## Tools Used
+- Google BigQuery
+- SQL
+- Lucidchart (for schema visualization)
    
