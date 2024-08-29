@@ -1,7 +1,7 @@
 # luigilatorre_portfolio
 # Data Analytics Portfolio
 
-# European Soccer Database Analysis
+## European Soccer Database Analysis
 
    ## Introduction
    This project analyzes the European Soccer Database, a comprehensive collection of soccer-related data. The analysis covers various aspects of European soccer leagues, including team performance, player statistics, and match outcomes.
@@ -14,9 +14,9 @@
    - player.csv
 
    ## Database Schema
-   ![Schema] https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#
+   !https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#
 
-   ## SQL Queries and Analysis
+   ## SQL Queries
    This project demonstrates proficiency in SQL through various analytical queries, including:
    1. Time span analysis of the dataset
    2. League and season goal statistics
