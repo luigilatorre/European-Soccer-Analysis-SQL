@@ -1,5 +1,3 @@
-# luigilatorre_portfolio
-
 # Data Analysis with SQL: European Soccer Database
 
 ## Overview
