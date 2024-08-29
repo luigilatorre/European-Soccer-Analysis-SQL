@@ -24,7 +24,7 @@ european-soccer-analysis/
 │   ├── top_scoring_team.sql
 │   ├── season_top_teams.sql
 │   └── pair_combinations.sql
-└── schema_diagram.png
+└── schema.png
 ```
 
 ## Tasks and Findings
