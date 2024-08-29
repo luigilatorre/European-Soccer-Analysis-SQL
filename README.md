@@ -1,5 +1,4 @@
 # luigilatorre_portfolio
-# Data Analytics Portfolio
 
 ## European Soccer Database Analysis
 
@@ -31,7 +30,7 @@
    - FC Barcelona scored the most goals (112) in the 2015/2016 season
 
    ## Conclusion
-   This project showcases skills in SQL querying, data analysis, and deriving insights from complex datasets. It demonstrates the ability to work with relational databases and perform meaningful analyses on sports data.
+   This project showcases skills in SQL querying, data analysis, and deriving insights from datasets.
 
    ## Tools Used
    - Google BigQuery
