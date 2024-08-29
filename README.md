@@ -37,7 +37,7 @@ european-soccer-analysis/
 
 ### 2. Schema Design
 - **Objective**: Design a schema representing relationships between tables.
-- **Visualization**: ![Schema Diagram]([images/schema_diagram.png](https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#)]())
+- **Visualization**: ![Schema Diagram]images/schema_diagram.png](https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#
 - **Details**: Includes Primary keys (PK), Foreign keys (FK), and table dimensions.
 
 ### 3. Data Analysis
@@ -80,13 +80,7 @@ european-soccer-analysis/
 - **Result**: 45 unique combinations.
 
 ## Conclusion
-This project demonstrates proficiency in SQL for sports data analysis. It showcases the ability to extract meaningful insights from a complex soccer database, revealing trends in team performance, player health statistics, and league dynamics.
-
-## Future Work
-Potential extensions for this project include:
-- Incorporating machine learning models for match outcome prediction.
-- Visualizing data trends using tools like Tableau or Power BI.
-- Expanding the analysis to include player performance metrics and team strategies.
+This project demonstrates proficiency in SQL for sports data analysis. It showcases the ability to extract meaningful insights from a soccer database, revealing trends in team performance, player health statistics, and league dynamics.
 
 ## Tools Used
 - Google BigQuery
