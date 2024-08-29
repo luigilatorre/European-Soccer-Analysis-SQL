@@ -1,5 +1,5 @@
 # luigilatorre_portfolio
-Data Analytics Portfolio - SQL with Google Big Query dashboard
+### Data Analytics Portfolio
 
 # European Soccer Database Analysis
 
