@@ -12,6 +12,4 @@ FROM sql-sandbox-418719.Final_Exercise.player
 SELECT * FROM sql-sandbox-418719.Final_Exercise.PlayerBMI
 WHERE BMI BETWEEN 18.5 AND 24.9
 
---How many rows does this table have? 
-SELECT COUNT(*) AS Rows_num
-FROM sql-sandbox-418719.Final_Exercise.PlayerBMI
+
