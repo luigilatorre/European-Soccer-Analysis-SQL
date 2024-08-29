@@ -47,7 +47,7 @@ european-soccer-analysis/
 
 #### Task 4: Home Goals Analysis
 - **Objective**: Analyze home goals per season and league.
-- **File**: `sql/home_goals_analysis.sql`
+- **File**: [`sql/home_goals_analysis.sql`](.sql/home_goals_analysis.sql)
 - **Key Finding**: England Premier League 2009/2010 had the highest total with 645 goals.
 
 #### Task 5: Seasons and Matches Analysis
