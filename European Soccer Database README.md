@@ -47,34 +47,34 @@ european-soccer-analysis/
 
 #### Task 4: Home Goals Analysis
 - **Objective**: Analyze home goals per season and league.
-- **File**: [`sql/home_goals_analysis.sql`](.sql/home_goals_analysis.sql)
+- **File**: [`sql/home_goals_analysis.sql`](./sql/home_goals_analysis.sql)
 - **Key Finding**: England Premier League 2009/2010 had the highest total with 645 goals.
 
 #### Task 5: Seasons and Matches Analysis
 - **Objective**: Identify unique seasons and analyze match counts per league.
-- **File**: [`sql/seasons_matches_analysis.sql`](.sql/seasons_matches_analysis.sql)
+- **File**: [`sql/seasons_matches_analysis.sql`](./sql/seasons_matches_analysis.sql)
 - **Observation**: Inconsistency detected in the Belgium Jupiler League 2013/2014 with only 12 matches.
 
 #### Task 6: Player BMI Analysis
 - **Objective**: Create a new table for player BMI analysis.
-- **File**: [`sql/player_bmi.sql`](.sql/player_bmi.sql)
+- **File**: [`sql/player_bmi.sql`](./sql/player_bmi.sql)
 - **Findings**:
   - Optimal BMI Count: 10,197 players
   - Non-Optimal BMI Count: 863 players
 
 #### Task 8: Top Scoring Team
 - **Objective**: Identify the top-scoring team in the most recent season.
-- **File**: [`sql/top_scoring_team.sql`](.sql/top_scoring_team.sql)
+- **File**: [`sql/top_scoring_team.sql`](./sql/top_scoring_team.sql)
 - **Result**: FC Barcelona with 112 goals in 2015/2016.
 
 #### Task 9: Season Top Teams
 - **Objective**: Rank teams by total goals per season.
-- **File**: [`sql/season_top_teams.sql`](.sql/season_top_teams.sql)
+- **File**: [`sql/season_top_teams.sql`](./sql/season_top_teams.sql)
 - **Top Performer**: Real Madrid FC with 121 goals in 2011/2012.
 
 #### Task 10: Team Pair Combinations
 - **Objective**: Generate pair combinations of top 10 teams.
-- **File**: [`sql/pair_combinations.sql`](.sql/pair_combinations.sql)
+- **File**: [`sql/pair_combinations.sql`](./sql/pair_combinations.sql)
 - **Result**: 45 unique combinations.
 
 ## Conclusion
