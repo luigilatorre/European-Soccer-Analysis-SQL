@@ -43,7 +43,7 @@ european-soccer-analysis/
 
 #### Task 3: Time Span Analysis
 - **Objective**: Calculate the number of days between the oldest and most recent match.
-- **File**: [`sql/days_calculation.sql`_](.luigilatorre_portfolio/sql/days_calculation.sql)
+- **File**: [`sql/days_calculation.sql`](.luigilatorre_portfolio/sql/days_calculation.sql)
 - **Result**: 2868 days
 
 #### Task 4: Home Goals Analysis
