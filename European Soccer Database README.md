@@ -33,7 +33,7 @@ european-soccer-analysis/
 
 ### 1. Dataset Setup
 - **Objective**: Create a dataset in Google BigQuery and load the CSV files as separate tables.
-- **File**: [`sql/setup.sql`](./sql/setup.sql)
+- **File**: [`sql/setup.sql`](.luigilatorre_portfolio/sql/setup.sql)
 
 ### 2. Schema Design
 - **Objective**: Design a schema representing relationships between tables.
