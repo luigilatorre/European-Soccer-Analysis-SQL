@@ -7,13 +7,17 @@ This project demonstrates advanced SQL analysis techniques using the European So
 The analysis is based on the following CSV files:
 - `leagues.csv`
 - `match.csv`
-- `team.csv`
 - `player.csv`
+- `team.csv`
 
 ## Project Structure
 ```
 european-soccer-analysis/
-├── README.md
+├── data/
+│   ├── leagues.csv
+│   ├── match.csv
+│   ├── player.csv
+│   ├── team.csv
 ├── sql/
 │   ├── days_calculation.sql
 │   ├── home_goals_analysis.sql
@@ -22,6 +26,7 @@ european-soccer-analysis/
 │   ├── top_scoring_team.sql
 │   ├── season_top_teams.sql
 │   └── pair_combinations.sql
+├── README.md
 └── schema.png
 ```
 
