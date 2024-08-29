@@ -37,7 +37,7 @@ european-soccer-analysis/
 
 ### 2. Schema Design
 - **Objective**: Design a schema representing relationships between tables.
-- **Visualization**: ![Schema Diagram]images/schema_diagram.png](https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#
+- **Visualization**: !images/schema_diagram.png](https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#
 - **Details**: Includes Primary keys (PK), Foreign keys (FK), and table dimensions.
 
 ### 3. Data Analysis
