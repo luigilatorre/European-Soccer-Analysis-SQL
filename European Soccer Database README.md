@@ -17,7 +17,6 @@ The analysis is based on the following CSV files:
 european-soccer-analysis/
 ├── README.md
 ├── sql/
-│   ├── setup.sql
 │   ├── days_calculation.sql
 │   ├── home_goals_analysis.sql
 │   ├── seasons_matches_analysis.sql
@@ -25,8 +24,7 @@ european-soccer-analysis/
 │   ├── top_scoring_team.sql
 │   ├── season_top_teams.sql
 │   └── pair_combinations.sql
-└── images/
-    └── schema_diagram.png
+└── schema_diagram.png
 ```
 
 ## Tasks and Findings
@@ -45,7 +43,7 @@ european-soccer-analysis/
 
 #### Task 3: Time Span Analysis
 - **Objective**: Calculate the number of days between the oldest and most recent match.
-- **File**: `sql/days_calculation.sql`
+- **File**: [`sql/days_calculation.sql`_]((.luigilatorre_portfolio/sql/days_calculation.sql)
 - **Result**: 2868 days
 
 #### Task 4: Home Goals Analysis
