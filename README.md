@@ -14,7 +14,6 @@
    - player.csv
 
    ## Database Schema
-   ![Database Schema]
     https://lucid.app/lucidchart/d18319bf-1fc3-4f07-a395-69998a2fe3dd/edit?invitationId=inv_3302cf3d-4667-44e5-9889-c564235a1d4c&page=0_0#
 
    ## SQL Queries and Analysis
